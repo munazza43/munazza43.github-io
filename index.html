@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!------------------------------------------------- aos link -------------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!------------------------------------------- font aewsome link ----------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--------------------------------------------- bootstrsap link ----------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-------------------------------------------- google font link ----------------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <!-------------------------------------------- favicon link ----------------------------------->
+  <link rel="shortcut icon" href="./assets/logo.PNG" type="image/x-icon">
+
+  <title>Wild Animals</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!----------------------------navbar start-------------------------------------->
+  <nav class="navbar navbar-expand bg-secondary sticky-top">
+    <div class="container-fluid">
+      <span>
+        <img class="logo" src="./assets/logo-removebg-preview.png" alt="">
+        <a class="navbar-brand text-light" href="#">Wild Animals</a>
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse order-lg-1 " id="navMenu">
+        <ul class="navbar-nav mx-auto text-center fw-bold ">
+          <li class="nav-item py-2">
+            <a class="nav-link " href="#type">Type of wild animals</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link " href="#&">Habits & behavior</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link" href="#diet">Diet</a>
+          </li>
+          <li class="nav-item py-2">
+          <a class="nav-link" href="#hunter">Famous Hunter</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link" href="#feedback">Feedback</a>
+          </li>
+        </ul>
+        <div class="icon">
+          <i class="fa-solid fa-shop fa-lg" style="color: #d3e0d5;"></i>
+          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #e2f1e3;"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!----------------------------navbar end-------------------------------------->
+
+  <!------------------------------------------ Carousel Start ---------------------------------------->
+  <section id="home" class="home section_padding mt-3">
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/all animals.jpg" class="d-block w-100" alt="...">
+
+
+
+          <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
+            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
+              <h1> Animals journey</h1>
+              <button class="button py-2 px-4">
+                Visit Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/animal 3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/aniamal 2.webp" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/aniaml 4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
+            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
+              <h1>Wild Animals</h1>
+              <button class="button py-2 px-4">
+                Visit More Animals
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-------------------------------------------- Carousel End ----------------------------------------->
+  <!-------------------------------------------- type of wild animals----------------------------------------->
+  <section id="type" class="joy section_padding">
+    <div class="container">
+      <div class="font">
+        <h1>Type Of Wild Animals</h1>
+        <div></div>
+      </div>
+      <div class="row">
+        <!------------------------------------------- card 1 ----------------------------------->
+        <div class="heading col-md-4 col-sm-6 col-12 mt-4">
+          <h2>Mammals</h2>
+            <div class="card bg-transparent" >
+              <div class="image">
+                <img src="./assets/mammals.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-text">
+                <p>Mammals are warm-blooded vertebrates that have hair or fur. They give birth to live young and nurse
+                  their offspring with milk. Examples include lions, tigers, elephants, and whales.</p>
+              </div>
+            </div>
+        </div>
+        <!------------------------------------------- card 2 ------------------------------------->
+        <div class="heading col-md-4 col-sm-6 col-12 mt-4">
+          <h2>Birds</h2>
+          <div class="card bg-transparent">
+            <div class="image">
+              <img src="./assets/bird.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-text">
+              <p>Birds are feathered, winged, bipedal vertebrates. They lay eggs and have beaks, which are used for
+                feeding and grooming. They are found in a wide variety of habitats, from forests to deserts.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <!------------------------------------------- card 3 -------------------------------------->
+        <div class="heading col-md-4 col-sm-6 col-12 mt-4">
+          <h2>Reptiles</h2>
+          <div class="card bg-transparent">
+            <div class="image image2">
+              <img src="./assets/lizard.jpg" alt="" class="img-fluid h-100">
+            </div>
+            <div class="card-text ">
+              <p>Reptiles are cold-blooded vertebrates that have scales or plates. They lay eggs and have lungs. Many
+                reptiles are carnivores, but some are herbivores or omnivores. Examples include snakes, lizards,
+                turtles, and crocodiles.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-------------------------------------------- type of wild animals------------------------------------->
+  <!---------------------------------------habits & behavior----------------------------------------->
+  <section id="&" class="joy section_padding mt-5">
+    <div class="container">
+      <div class="font">
+        <h1>Habits & Behavior</h1>
+        <div></div>
+      </div>
+      <div class="row">
+        <!---------------------------------------biological----------------------------------------->
+        <div class=" heading col-md-5 col-12">
+          <h2>Biological Adaptations</h2>
+          <div class="image">
+            <img src="./assets/biological.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="text col-md-7 col-12">
+
+          <p>Wild animals have evolved to thrive in a variety of habitats, from the Arctic tundra to the tropical
+            rainforests. They have adapted to specific conditions, such as temperature, rainfall, and food availability.
+          </p>
+        </div>
+        <!---------------------------------------biological----------------------------------------->
+        <!---------------------------------------social----------------------------------------->
+        <div class="text col-md-7 col-12">
+          <p>Many wild animals live in social groups with complex social structures. These structures can involve
+            hierarchies, communication, and cooperative behaviors.</p>
+        </div>
+        <div class=" heading col-md-5 col-12">
+          <h2>Social Groups</h2>
+          <div class="image">
+            <img src="./assets/social.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <!---------------------------------------social----------------------------------------->
+        <!---------------------------------------predator----------------------------------------->
+        <div class=" heading col-md-5 col-12">
+          <h2>Predator Prey Relationships</h2>
+          <div class="image">
+            <img src="./assets/predator.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="text col-md-7 col-12">
+          <p>Predator-prey interactions are essential for maintaining ecological balance. Predators control prey
+            populations, while prey species evolve strategies to avoid predation.</p>
+        </div>
+
+        <!---------------------------------------predator----------------------------------------->
+        <!---------------------------------------reproduction----------------------------------------->
+        <div class="text col-md-7 col-12">
+          <p>Wild animals have diverse reproductive strategies, ranging from monogamous pairs to complex mating rituals.
+            They produce offspring to ensure the continuation of their species.</p>
+        </div>
+        <div class=" heading col-md-5 col-12">
+          <h2>Reproduction</h2>
+          <div class="image">
+            <img src="./assets/Elephant.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <!---------------------------------------reproduction----------------------------------------->
+      </div>
+    </div>
+  </section>
+  <!---------------------------------------habits & behavior----------------------------------------->
+   <!---------------------------------------Diet----------------------------------------->
+   <section id="diet" class="tool section_padding mt-5">
+    <div class="container">
+      <div class="font">
+        <h1>Diet</h1>
+        <div></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="product-list mt-3">
+            <ul class="list-inline">
+              <li class="btn list-inline-item" data-filter="*">All</li>
+              <li class="btn list-inline-item" data-filter=".hands">Carnivores</li>
+              <li class="btn list-inline-item" data-filter=".power">herbivores</li>
+              <li id="btn" class="btn list-inline-item" data-filter=".others">omnivores</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="row">
+          <!------------------------------------------ card 9 ------------------------------------------>
+          <div class="col-md-3 mt-4 item others">
+            <div class="card1 border-4">
+              <div class="card-img1">
+                <img src="./assets/m1.webp" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 1 ------------------------------------------>
+          <div class="col-md-3 mt-4 item hands">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/m2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body mt-2">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 11 ------------------------------------------>
+          <div class="col-md-3 mt-4 item others">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/m3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 2 ------------------------------------------>
+          <div class="col-md-3 mt-4 item hands">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/m4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 3 ------------------------------------------>
+          <div class="col-md-3 mt-4 item hands">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/m5.png" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 4 ------------------------------------------>
+          <div class="col-md-3 mt-4 item hands">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/m7.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 5 ------------------------------------------>
+          <div class="col-md-3 mt-4 item power">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/p2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 7 ------------------------------------------>
+          <div class="col-md-3 mt-4 item power">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/p7.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 8 ------------------------------------------>
+          <div class="col-md-3 mt-4 item others">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/p4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 6 ------------------------------------------>
+          <div class="col-md-3 mt-4 item power">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/p5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------ card 10 ------------------------------------------>
+          <div class="col-md-3 mt-4 item others">
+            <div class="card1 border-4">
+              <div class="card-img2">
+                <img src="./assets/m6.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="card-text text-success">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!---------------------------------------Diet----------------------------------------->
+     <!-------------------------------------------- banner start ---------------------------------->
+     <section id="hunter" class="hunter section_padding">
+      <div class="container-fluid">
+        <div class="font">
+          <h1>Famous Hunter</h1>
+          
+          <div></div>
+        </div>
+        <div class="row">
+  
+    <div class="container-fluid img-background">
+      <div class="text">
+        <h1 class="text-uppercase"> Fast <br>Speed</h1>
+        <button class="btn btn-outline-light py-2 px-4">
+          For More Informations
+        </button>
+       
+      </div>
+    </div>
+  
+        </div>
+      </div>
+     </section>
+  <!---------------------------------------------- banner end ------------------------------------>
+  <section id="feedback" class="feedback section_padding">
+    <div class="container1">
+      <form class="needs-validation" novalidate>
+        <h1>Give Your Feedback</h1>
+        <div class="id">
+          <input type="text" placeholder="Full name" required>
+          <i class="far fa-user"></i>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+        <div class="id">
+          <input type="email" placeholder="Email address" required>
+          <i class="far fa-envelope"></i>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please enter email.
+          </div>
+        </div>
+        <textarea cols="15" rows="5" placeholder="Enter your opinion here..."></textarea>
+        <button type="submit">send</button>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <footer class="text-center bg-transparent">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-bold p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright: Wild Animals
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <div class="container-fluid">
+    <img src="./assets/cheetah-006.jpg" id="img" alt="">
+  </div>
+  <!---------------------------------------------- Custom js ---------------------------------------->
+  <script src="app.js"></script>
+  <!-------------------------------------------js bootstrsap link ----------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!------------------------------------------------- aos link -------------------------------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!---------------------------------------------- jquery link -------------------------------------->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+
+  <!---------------------------------------------- jquery isotopes -------------------------------------->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!---------------------------------------------- jquery scrollup -------------------------------------->
+  <script src="./script.js"></script>
+
+  <script>
+    $('.product-item').isotope({
+      itemSelector: '.item',
+      layoutMode: 'fitRows'
+    });
+    $('.product-list .list-inline .list-inline-item').click(function () {
+      $(this).addClass('btn');
+      var selector = $(this).attr('data-filter');
+      $('.product-item').isotope({
+        filter: selector
+      });
+      return false
+    });
+  </script>
+
+  <script>
+
+    $(function () {
+      $.scrollUp({
+        scrollImg: true,
+      });
+    });
+  </script>
+
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  </script>
+
+</body>
+</html>
